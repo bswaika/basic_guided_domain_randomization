@@ -2,7 +2,7 @@
 
 This project acts as a first step to understanding **[domain randomization](https://lilianweng.github.io/posts/2019-05-05-domain-randomization/)** in the context of **sim2real** transfer learning. The idea is to work on a dummy dataset that provides images + odometry data to train a CNN with regressive capabilities and learn a mapping from *image* &#8594; (*steering angle*, *acceleration*).
 
-> ## Disclaimer
+> ### Disclaimer
 > The key reason for not working with jupyter notebooks and not being able to train on larger batches was to accomodate hardware limitations. This is meant solely as an experiment to understand domain randomization and not intended to be used without necessary adjustments.
 
 ## Data Collection
