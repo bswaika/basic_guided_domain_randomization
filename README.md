@@ -40,6 +40,22 @@ In this implementation, DR works as follows:
 The computation for loss over the distribution params is taken directly from 1 in the paper list. It is as follows:
 ![Equation for SGD on Distribution Params](basic_guided_dr_formula.png)
 
+## Gallery of Randomizations
+The top row shows the target domain or, the real image in its unaltered form. The bottom row shows the source domain or, the transformed image after applying random perturbations.
+![Random_1](./gallery/fig-epoch1-target-vs-source-domain.png) 
+![Random_2](./gallery/fig-epoch2-target-vs-source-domain.png)
+![Random_3](./gallery/fig-epoch3-target-vs-source-domain.png)
+
+More images can be found in the `./gallery` directory.
+
+## Results
+The change of distributions over time has been shown below. Lighter colors denote earlier epochs, and darker colors indicate later epochs. 
+![Distributions over Time](./results/fig-1-distributions-over-time.png)
+
+The transfer loss, source loss and target loss have been shown below. The **red** line shows source loss, the **green** shows target loss, and the other plot shows the transfer loss.
+![Losses over Time](./results/fig-2-losses-over-time.png) 
+
+
 ## Future Concerns
 - Parallelizing workload to update gradients based on multiple samples
 - Identifying what configuration parameters can be operated on and how they can transform the data
