@@ -49,9 +49,11 @@ The top row shows the target domain or, the real image in its unaltered form. Th
 More images can be found in the `./gallery` directory.
 
 ## Results
+### Probability Distributions
 The change of distributions over time has been shown below. Lighter colors denote earlier epochs, and darker colors indicate later epochs. 
 ![Distributions over Time](./results/fig-1-distributions-over-time.png)
 
+### Losses
 The transfer loss, source loss and target loss have been shown below. The **red** line shows source loss, the **green** shows target loss, and the other plot shows the transfer loss.
 ![Losses over Time](./results/fig-2-losses-over-time.png) 
 
